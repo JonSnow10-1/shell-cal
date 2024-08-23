@@ -10,8 +10,8 @@ if ! [[ "$num1" =~ ^-?[0-9]+$ ]] || ! [[ "$num2" =~ ^-?[0-9]+$ ]]; then
     exit 1
 fi
 
-# Perform the addition
-sum=$((num1 + num2))
+# Perform the subtraction
+difference=$((num1 - num2))
 
 # Display the result
-echo "The sum of $num1 and $num2 is $sum."
+echo "The difference between $num1 and $num2 is $difference."
