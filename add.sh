@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # Static numbers to add
 num1=10
